@@ -3,7 +3,6 @@ import 'package:ecommerceapp/Utils/app_colors.dart';
 import 'package:ecommerceapp/models/product_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:get/get.dart';
 
 class ProductCard extends StatelessWidget {
   const ProductCard({
@@ -19,7 +18,7 @@ class ProductCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(left: 20),
+      padding: const EdgeInsets.all(4.0),
       child: SizedBox(
         width: width,
         child: GestureDetector(
